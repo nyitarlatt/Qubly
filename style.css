@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Metrophobic&display=swap");
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Metrophobic", sans-serif;
+  background-image: url("img/Path\ 1.svg");
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.899);
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.nav-item a:hover {
+  color: rgb(94, 146, 243) !important;
+}
+
+.nav-item .active {
+  background-color: rgb(94, 146, 243);
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+.text_learnmore {
+  width: 250px;
+}
+
+.t_whyqubly {
+  width: 150px;
+}
+
+.con_3 {
+  margin-bottom: 100px;
+}
+
+.con_5 {
+  padding-top: 200px;
+  background-image: url(img/Path\ 606.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+}
+
+#btn_up {
+  display: block;
+  margin: 10px auto;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(120, 159, 231);
+  border-radius: 5px;
+  border: none;
+}
+#btn_up:hover {
+  background-color: rgb(94, 143, 233);
+}
+#btn_up:active {
+  background-color: rgb(59, 122, 240);
+}
+#btn_up > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.form_ {
+  height: 550px;
+  margin-top: -48px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.form_input {
+  width: 90%;
+  border: 1px solid rgba(197, 192, 192, 0.589);
+  border-radius: 5px;
+  height: 60px;
+}
+
+.form_input:focus {
+  outline: none;
+  border: 1px solid rgba(133, 128, 128, 0.849);
+}
+.btn_freetrial {
+  width: 90%;
+  height: 60px;
+}
+
+.newsletter {
+  height: 40px;
+  border: 0;
+}
+.newsletter:focus {
+  outline: none;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* medi quaries */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 476px) {
+  #btn_getstarted {
+    margin: 0 !important;
+  }
+  .con_2 {
+    margin-bottom: 140px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #btn_getstarted {
+    margin: 0 20px !important;
+  }
+  .con_2 {
+    margin-bottom: 340px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
